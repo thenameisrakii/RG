@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    background:url("imgs/bg.jpg");
+    padding-bottom: 3%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 147px;
+    border:solid 3px;
+    border-color:papayawhip;
+  }
+  h2{
+      color:#ffffff;
+      text-align: center;
+      font-family: 'Artifika', serif;
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .bx{
+    position: relative;;
+    margin:30px 1px;
+    padding:30px;
+    background:transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+    float: left;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    width: 100%;
+}
+.bx h3{
+    text-align: center;
+    color: #eee;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.bx p{
+    font-size: 25px;
+    text-align: center;
+    color: #4CAF50; 
+}
+.chbn button{
+    padding:10px 20px;
+    background-color:#4CAF50;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;  
+    border-style: none;
+    color: #eee;
+    box-shadow: 6px 6px 0px black;
+}
+.chbn{
+    text-align: center;
+}
+.chbn button:hover{
+   color: #4CAF50;
+   background-color: #eee;
+}
+.rits{
+    padding-bottom:3.95%;
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.rits h4{
+    padding-top: 1%;
+    color: white;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: white; 
+    font-family: sans-serif;
+     text-decoration: underline;
+     text-transform: capitalize;
+}
+a:hover{
+    color: red;
+}
+body{
+    background-color: #282f36;
+}
+@media (max-width:1919px){
+    .product{
+        display: none;
+    }
+}
+hr{
+    color: #eee;
+}

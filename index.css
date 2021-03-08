@@ -1,0 +1,145 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-image:url("img2/indbg12.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    position: relative;
+    max-width:1200px;
+    margin:20px auto;
+    padding:10px;
+    background:white;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.logo{
+    color:darkred;
+    height:60px;
+    font-size: 39px;
+    line-height:60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    text-decoration:none;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+}
+nav{
+    float: right;
+}
+.clearf{
+    clear: both;
+}
+nav ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    display: block;
+    margin: 10px 0;
+    color:darkred;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+nav ul li a:hover{
+    font-size: 22px;
+    font-weight: bold;
+    border-radius:16px;
+}
+@media (max-width:1200px){
+    header{
+        margin: 20px;
+    }
+}
+@media (max-width:1024px){
+    .menu{
+        display: block;
+        width:40px;
+        height:40px;
+        margin:10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size:30px;
+        color:red;
+    }
+    .menu:before{
+        content:'\f0c9';
+        font-family: fontAwesome;
+        line-height:40px;
+    }
+    .menu.active:before{
+        content:'\f00d';
+    }
+nav{
+    display: none;
+}
+nav.active{
+    display:block;
+    width:100%;
+}
+nav.active ul{
+    display: block;
+}
+}
+.sec{
+    margin-top:10%;
+    margin-left:10%;
+}
+.sec h1{
+    color: white;
+    font-size:50px;
+}
+.sec p{
+    font-size: 25px;
+    color: white;
+    font-family: 'Marck Script', cursive;
+}
+.sec a button{
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 20px;
+    box-shadow: 1px 3px 0px white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+.sec a button:hover{
+    box-shadow: 1px 4px 0px orangered;
+}
+.fa{
+    margin-right:8px;
+}
+@media (max-width:375px){
+    .sec h1{
+        font-size: 35px;
+    }
+    .sec p{
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+body{
+    background: url(img2/indbg10.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+}
